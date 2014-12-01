@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 4, 2014, 6:41:01 PM
+    Author     : Sujinthan
+*/
+h1{
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 100px;
+    position: absolute;
+    text-align:center;
+    color:#E12944;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background:#9AE4C2;
+}
+form{
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    text-align:center;
+    position: absolute;
+    color:#E12944;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+canvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #3C2A4F;
+    display:None;
+}
+
+label{
+    position: relative;
+    text-align:center;
+    font-size: 35px;
+    top:-10px;
+
+}
+
+input[type="radio"]{
+ display:inline;
+ float:left;
+}
+
+#Christmas, #NewYear{
+    
+    width: 20px;
+    height: 20px;
+}
+
+#Name{
+    font-size: 20px;
+    font-weight: 300;
+    width:240px;
+    padding:7px;
+    border:2px solid #ccc ;
+}
+#Submit{
+
+}
